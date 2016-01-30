@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #555151;
+  background: linear-gradient(180deg,#000 27%, #fff);
 }
 /* Link Styles */
 
@@ -179,6 +179,16 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.my-face {
+	text-align: center;
+	margin:auto;
+}
+
+.selfie img {
+	border-radius: 15%;
+	border: 3px solid #FF9904;
 }
 
 /* Styles for larger screens */
