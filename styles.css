@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #555151;
 }
 /* Link Styles */
 
@@ -98,8 +98,21 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+
+.card:hover,
+.card-full:hover {
+  border-color: #FF9904;
+}
+
+.card-full {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
 }
 
 ul.skills {
@@ -117,7 +130,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #000;
 }
 
 footer {
@@ -129,6 +142,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: #fff;
 }
 
 footer ul {
